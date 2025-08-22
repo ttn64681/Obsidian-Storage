@@ -4,6 +4,6 @@
 
 Hitchhikers are team members who piggy-back off the success of other team members, without much consequence. Hitchhikers have the uncanny ability of detecting how much work they can get away with, and they manipulate their way into achieving just that; As a result, they're often accusatory, blame-deflecting, and criticizing, despite being in the wrong. 
 
-Couch potatoes are similar in that they don't pull their own weight; They, too, will test your limits: 
+Couch potatoes are similar in that they don't pull their own weight; They, too, will test your limits: They will 
 
 When dealing with hitchhikers, it is crucial not to absorb all of their problems and to, instead, confront them directly and show you have a bottom line. To start off with, set your limits early and high, constantly warning them whenever hitchhiking ensues. If they continue to hitchhike, then act consistently and discuss their behavior with the professor  (e.g., show proof of their lack of work) , where they can be punished or fired. It is important to understand that, despite your efforts to chastise and correct them, the hitchhiker alone is the only one who can change their attitude. All in all, don't allow their dysfunctional patterns early on - "before the hitchhiker takes advantage of you and the rest of the team!"
