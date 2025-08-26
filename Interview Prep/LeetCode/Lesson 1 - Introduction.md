@@ -5,3 +5,5 @@ Big O - notation used to measure an algorithm's efficiency as input size (n) gro
 
 O(n) :
 	`for item in my_list:`
+O(logn) :
+	``
