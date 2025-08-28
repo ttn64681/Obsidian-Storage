@@ -1,0 +1,3 @@
+- brainrot leetcode examples
+	- how to code a switch
+- take 5 minutes of throwing out ideas
