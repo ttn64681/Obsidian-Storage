@@ -16,8 +16,6 @@
 
 - Total Clock Cycles = total CPI x IC
 - CPI = TotalClock Cycles / IC
-- 
-
 
 - Power = CapactitativeLoad x Voltage^2 x Freq(Rate)
 - CapacitativeLoad = Power / (V^2 * f)
