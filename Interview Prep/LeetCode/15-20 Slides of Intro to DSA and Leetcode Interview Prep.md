@@ -1,4 +1,4 @@
-This revised workshop guide is significantly more detailed, with 15 sections (Slide 1 - 15) focusing on the "why" behind each choice, common pitfalls, pattern recognition keywords, and summary tables for reinforcement. It's structured to deliver maximum value within a one-hour timeframe.
+This leetcode/computer-science-interview-prep workshop for ACM UGA CSIP (Computer Science Interview Prep) guide is significantly  detailed, with at least 15 slides, (Slide 1 - 15), no less, focusing on the "why" behind each choice, common pitfalls, pattern recognition keywords, and summary tables for reinforcement. It's structured to deliver maximum value within a one-hour timeframe. INSTRUCTIONS FOR POWERPOINT GENERATION: DO NOT OMIT ANY CONTENT FROM THIS TEXT-CONTENT. This means to include everything, including all the code snippets and tables. Include them even if that means to put them on a new slide. Powerpoint should include minimal visuals and images aside from the code snippet blocks and tables.
 
 ---
 
