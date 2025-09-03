@@ -1,4 +1,4 @@
-Of course. This revised workshop guide is significantly more detailed, focusing on the "why" behind each choice, common pitfalls, pattern recognition keywords, and summary tables for reinforcement. It's structured to deliver maximum value within a one-hour timeframe.
+This revised workshop guide is significantly more detailed, with 15 sections (Slide 1 - 15) focusing on the "why" behind each choice, common pitfalls, pattern recognition keywords, and summary tables for reinforcement. It's structured to deliver maximum value within a one-hour timeframe.
 
 ---
 
@@ -372,14 +372,14 @@ def isAnagramMap(s: str, t: str) -> bool:
 
 ### **Slide 15: Final Summary Cheat Sheet** (2 mins)
 
-|If the problem involves...|Your first thought should be...|Because...|Big O Goal|
-|---|---|---|---|
-|**Counting, Frequencies, Pairs**|**Hash Map**|It provides instant O(1) lookups.|O(N)|
-|**Duplicates, Uniqueness**|**Set**|It provides instant O(1) existence checks.|O(N)|
-|**Nested Logic (e.g., parentheses)**|**Stack**|Its LIFO property matches the problem structure.|O(N)|
-|**Shortest Path, Level Order**|**Queue (for BFS)**|Its FIFO property ensures level-by-level exploration.|O(N)|
-|**A Sorted Array**|**Two Pointers / Binary Search**|The sorted property allows for intelligent elimination of possibilities.|O(N) or O(logN)|
-|**Optimal _Contiguous_ Subarray**|**Sliding Window**|It avoids re-computation by sliding and updating.|O(N)|
-|**"Top K" or "Kth Largest"**|**Heap**|It's cheaper (O(NlogK)) than sorting the whole array.|O(NlogK)|
+| If the problem involves...           | Your first thought should be...  | Because...                                                               | Big O Goal      |
+| ------------------------------------ | -------------------------------- | ------------------------------------------------------------------------ | --------------- |
+| **Counting, Frequencies, Pairs**     | **Hash Map**                     | It provides instant O(1) lookups.                                        | O(N)            |
+| **Duplicates, Uniqueness**           | **Set**                          | It provides instant O(1) existence checks.                               | O(N)            |
+| **Nested Logic (e.g., parentheses)** | **Stack**                        | Its LIFO property matches the problem structure.                         | O(N)            |
+| **Shortest Path, Level Order**       | **Queue (for BFS)**              | Its FIFO property ensures level-by-level exploration.                    | O(N)            |
+| **A Sorted Array**                   | **Two Pointers / Binary Search** | The sorted property allows for intelligent elimination of possibilities. | O(N) or O(logN) |
+| **Optimal _Contiguous_ Subarray**    | **Sliding Window**               | It avoids re-computation by sliding and updating.                        | O(N)            |
+| **"Top K" or "Kth Largest"**         | **Heap**                         | It's cheaper (O(NlogK)) than sorting the whole array.                    | O(NlogK)        |
 
 **Questions?**
