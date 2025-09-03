@@ -383,3 +383,100 @@ def isAnagramMap(s: str, t: str) -> bool:
 | **"Top K" or "Kth Largest"**         | **Heap**                         | It's cheaper (O(NlogK)) than sorting the whole array.                    | O(NlogK)        |
 
 **Questions?**
+
+Of course. Here are concise explanations of time and space complexity using code snippets as the primary examples.
+
+---
+
+## Time Complexity
+
+Time complexity measures how the runtime of an algorithm scales with the input size (`n`).
+
+- **O(1) - Constant Time:** Runtime is independent of the input size.
+    
+    Python
+    
+    ```
+    # Accessing an element by index is always O(1)
+    value = my_list[5]
+    ```
+    
+- **O(logn) - Logarithmic Time:** Runtime grows very slowly as the problem size is halved at each step.
+    
+    Python
+    
+    ```
+    # Binary search halves the search space (n) in each step
+    l, r = 0, len(arr) - 1
+    while l <= r:
+        mid = (l + r) // 2
+        if arr[mid] == target: break
+        elif arr[mid] < target: l = mid + 1
+        else: r = mid - 1
+    ```
+    
+- **O(n) - Linear Time:** Runtime grows directly in proportion to the input size.
+    
+    Python
+    
+    ```
+    # A single loop through n elements is O(n)
+    total = 0
+    for num in my_list:
+        total += num
+    ```
+    
+- **O(n2) - Quadratic Time:** Runtime grows by the square of the input size, typically due to nested loops.
+    
+    Python
+    
+    ```
+    # Nested loops result in n*n operations, hence O(n^2)
+    for i in my_list:
+        for j in my_list:
+            print(i, j)
+    ```
+    
+
+---
+
+## Space Complexity
+
+Space complexity measures the extra memory an algorithm needs as the input size (`n`) grows.
+
+- **O(1) - Constant Space:** The algorithm uses a fixed amount of extra memory.
+    
+    Python
+    
+    ```
+    # Uses only two variables (l, r), regardless of list size
+    l, r = 0, len(my_list) - 1
+    while l < r:
+        my_list[l], my_list[r] = my_list[r], my_list[l]
+        l += 1
+        r -= 1
+    ```
+    
+- **O(n) - Linear Space:** Extra memory usage grows in proportion to the input size.
+    
+    Python
+    
+    ```
+    # Creates a new list whose size is proportional to the input list n
+    new_list = []
+    for item in my_list:
+        new_list.append(item * 2)
+    ```
+    
+- **O(n2) - Quadratic Space:** Memory usage grows by the square of the input size.
+    
+    Python
+    
+    ```
+    # Creates an n x n matrix, requiring n*n memory
+    matrix = []
+    n = len(my_list)
+    for i in range(n):
+        row = [0] * n
+        matrix.append(row)
+    ```
