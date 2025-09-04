@@ -1,3 +1,4 @@
+# 1.
 ![[REPO/2025 FALL/CSCI 4720/1 - CPU + Performance/Pasted Images/CPU Clocking.png]]
 - frequency / rate - cycles per second
 	- In terms of Hz (1 Hz = 1 cycle per second)
@@ -22,3 +23,5 @@
 
 
 - SPEC Ratio = Reference Time / Execution Time
+
+# 2.
