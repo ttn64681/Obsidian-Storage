@@ -21,11 +21,11 @@ Today, we're not just learning _what_ data structures are; we're learning **how 
 **Our Plan:**
 
 - **The "Why":** Understand Big O intuition, not just memorization.
-    
+	
 - **The "What":** Tour the core data structures and their trade-offs.
-    
+	
 - **The "How":** Learn to recognize algorithmic patterns that turn slow code into fast code.
-    
+	
 
 ---
 
@@ -40,45 +40,45 @@ Today, we're not just learning _what_ data structures are; we're learning **how 
 #### **Arrays (Python `list`)**
 
 - **How they work:** Arrays are stored in **contiguous memory**, like houses on a street.
-    
+	
 - **The Trade-off:**
-    
-    - **Fast Access:** `my_list[i]` is **O(1)** because its memory address is easily calculated.
-        
-    - **Slow Changes:** Inserting/deleting in the middle is **O(N)** because elements must be shifted over.
-        
+	
+	- **Fast Access:** `my_list[i]` is **O(1)** because its memory address is easily calculated.
+		
+	- **Slow Changes:** Inserting/deleting in the middle is **O(N)** because elements must be shifted over.
+		
 - **Pitfall:** The `item in my_list` operation is O(N). If you do this inside a loop, you've created an accidental O(N2) algorithm. This is a very common beginner mistake.
-    
+	
 
 #### **Strings**
 
 - **The Trap (Immutability):** Strings are immutable. In Python, `new_str = s + 'a'` creates an entirely new string, copying all the old characters.
-    
+	
 - **Bad Practice:** Building a string with `+=` in a loop results in O(N2) complexity.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # BAD: O(N^2) - Avoid this!
     s = ""
     for char in my_chars: s += char
     ```
-    
+	
 - **Good Practice:** Use a mutable list and `.join()` for an efficient O(N) operation.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # GOOD: O(N)
     s = "".join(my_chars)
     ```
-    
+	
 
 ---
 
 ### **Slide 4: Foundation Summary** (1 min)
 
-|Concept|Big O Cost|Good For...|Bad For... (Pitfalls)|
+|Concept|Big O Cost|Good For…|Bad For… (Pitfalls)|
 |---|---|---|---|
 |**Array Access**|O(1)|Simple, ordered storage.|Inserting/deleting in the middle.|
 |**Array Search**|O(N)|-|Frequent lookups (`item in list`).|
@@ -96,25 +96,25 @@ Today, we're not just learning _what_ data structures are; we're learning **how 
 If you master one thing from today, this is it.
 
 - **Analogy:** A coat check. You give a key (your ticket) and get a value (your coat) instantly.
-    
+	
 - **How it works:** A "hash function" instantly converts a key (e.g., the string "apple") into an index in memory. This is why lookups are, on average, **O(1)**.
-    
+	
 - **The "Tell" (Keywords & Goals):**
-    
-    - **Goal:** Counting things. **Keywords:** "frequency," "count," "occurrences."
-        
-    - **Goal:** Finding pairs. **Keywords:** "two sum," "pair," "a + b = c."
-        
-    - **Goal:** Fast lookups. **Keywords:** "cache," "seen before," "duplicate."
-        
+	
+	- **Goal:** Counting things. **Keywords:** "frequency," "count," "occurrences."
+		
+	- **Goal:** Finding pairs. **Keywords:** "two sum," "pair," "a + b = c."
+		
+	- **Goal:** Fast lookups. **Keywords:** "cache," "seen before," "duplicate."
+		
 - **LeetCode Example: "Two Sum"**
-    
-    - **Why it works:** To find if `target - num` exists, a brute-force approach searches the rest of the array (O(N)). A hash map stores every number you've seen, turning that search into an instant **O(1)** lookup. This transforms the total time from O(N2) to O(N).
-        
-    
-    Python
-    
-    ```
+	
+	- **Why it works:** To find if `target - num` exists, a brute-force approach searches the rest of the array (O(N)). A hash map stores every number you've seen, turning that search into an instant **O(1)** lookup. This transforms the total time from O(N2) to O(N).
+
+
+	Python
+
+	```
     def two_sum_optimized(nums, target):
         seen = {} # {value: index}
         for i, num in enumerate(nums):
@@ -123,11 +123,11 @@ If you master one thing from today, this is it.
                 return [seen[complement], i]
             seen[num] = i
     ```
-    
+	
 - **Implementation Pitfall:** Using `my_dict[key]` can cause a `KeyError` if the key doesn't exist.
-    
+	
 - **Good Practice:** Use `my_dict.get(key, default_value)` for safer access.
-    
+	
 
 ---
 
@@ -136,9 +136,9 @@ If you master one thing from today, this is it.
 **LeetCode Problem: "Valid Anagram"**
 
 - **Problem:** Given two strings, `s` and `t`, are they anagrams? (e.g., "anagram" and "nagaram").
-    
+	
 - **The Goal:** Check if both strings have the exact same character counts.
-    
+	
 
 Approach 1: Sorting (O(NlogN))
 
@@ -152,9 +152,9 @@ def isAnagramSort(s: str, t: str) -> bool:
 ```
 
 - **Why it works:** Simple and clever.
-    
+	
 - **The Catch:** Sorting is not free. It costs O(NlogN), which is good, but we can do better.
-    
+	
 
 Approach 2: Hash Map (O(N))
 
@@ -173,7 +173,7 @@ def isAnagramMap(s: str, t: str) -> bool:
 ```
 
 - **Why it's better:** We only iterate through the strings once (O(N)), which is faster than sorting. This is a classic example of trading space (for the hash maps) to improve time complexity.
-    
+	
 
 ---
 
@@ -195,16 +195,16 @@ def isAnagramMap(s: str, t: str) -> bool:
 ### **Slide 8: Stacks (LIFO)** (5 mins)
 
 - **Analogy:** A stack of plates. Last one on is the first one off (Last-In, First-Out).
-    
+	
 - **The "Tell" (Keywords & Goals):**
-    
-    - **Goal:** Process nested structures or reverse order. **Keywords:** "matching parentheses," "valid brackets," "backtracking."
-        
+	
+	- **Goal:** Process nested structures or reverse order. **Keywords:** "matching parentheses," "valid brackets," "backtracking."
+		
 - **Why it works for "Valid Parentheses":** The LIFO property perfectly models how nested structures must be resolved. An opening bracket `(` pushes a "promise" onto the stack. The very next closing bracket `)` must fulfill that most recent promise. If it does, the promise is popped off.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     def isValid(s: str) -> bool: # LeetCode "Valid Parentheses"
         stack = []
         close_to_open = {")": "(", "]": "[", "}": "{"}
@@ -218,29 +218,29 @@ def isAnagramMap(s: str, t: str) -> bool:
                 stack.append(char)
         return not stack # True if stack is empty
     ```
-    
+	
 - **Implementation:** In Python, a `list` with `.append()` and `.pop()` works perfectly as a stack. Both are O(1).
-    
+	
 
 ---
 
 ### **Slide 9: Queues (FIFO)** (5 mins)
 
 - **Analogy:** A line at a store. First one in is the first one out (First-In, First-Out).
-    
+	
 - **The "Tell" (Keywords & Goals):**
-    
-    - **Goal:** Process nodes level by level. **Keywords:** "shortest path," "level order," "Breadth-First Search (BFS)."
-        
+	
+	- **Goal:** Process nodes level by level. **Keywords:** "shortest path," "level order," "Breadth-First Search (BFS)."
+		
 - **Why it works for BFS:** The FIFO property guarantees that you process all nodes at the current "level" (or distance from the start) before you begin processing nodes at the next level. This is why BFS is guaranteed to find the shortest path in an unweighted graph.
-    
+	
 - **Implementation Pitfall:** Never use a Python `list` as a queue because `list.pop(0)` is a slow O(N) operation.
-    
+	
 - **Good Practice:** Always use `collections.deque` for its fast $O(1)`appends and`popleft()`.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # Example: Processing a tree level by level (BFS)
     from collections import deque
     queue = deque([root_node])
@@ -250,45 +250,45 @@ def isAnagramMap(s: str, t: str) -> bool:
         if node.left: queue.append(node.left)
         if node.right: queue.append(node.right)
     ```
-    
+	
 
 ---
 
 ### **Slide 10: Two Pointers** (5 mins)
 
 - **Analogy:** Two fingers moving across a string or list.
-    
+	
 - **The "Tell" (Keywords & Goals):**
-    
-    - **Goal:** Find a pair or check a property from opposite ends. **Keywords:** "palindrome," "sorted array."
-        
+	
+	- **Goal:** Find a pair or check a property from opposite ends. **Keywords:** "palindrome," "sorted array."
+		
 - **Why it works on sorted arrays:** The sorted property lets you make intelligent decisions. If your `sum` is too small, you know you _must_ increase the left pointer to get a bigger number. You can discard all other possibilities involving that small number. This intelligent elimination is what makes it O(N).
-    
+	
 - **Caveat:** This pattern usually requires the input to be **sorted** to work for finding pairs. If the array isn't sorted, this pattern won't help.
-    
+	
 - **LeetCode Example: "Valid Palindrome"**
-    
-    - **How it works:** By moving pointers from both ends inwards, you compare the start and end of the string simultaneously, effectively cutting the work in half in a single pass.
-        
+	
+	- **How it works:** By moving pointers from both ends inwards, you compare the start and end of the string simultaneously, effectively cutting the work in half in a single pass.
+		
 
 ---
 
 ### **Slide 11: Sliding Window** (5 mins)
 
 - **Analogy:** A resizable window sliding across a fence, looking for the best view.
-    
+	
 - **The "Tell" (Keywords & Goals):**
-    
-    - **Goal:** Find an optimal value in a **contiguous** segment. **Keywords:** "longest substring," "shortest subarray," "contiguous."
-        
+	
+	- **Goal:** Find an optimal value in a **contiguous** segment. **Keywords:** "longest substring," "shortest subarray," "contiguous."
+		
 - **Why it's efficient:** Instead of re-calculating the property of the entire window each time you move, you efficiently update it by adding the new element and removing the old one. This re-use of computation is the source of its O(N) efficiency.
-    
+	
 - **Caveat:** This only works for **contiguous** segments. If the subarray can have gaps, you need a different approach (like dynamic programming).
-    
+	
 - **LeetCode Example: "Maximum Sum Subarray of Size K"**
-    
-    - **How it works:** You maintain a `window_sum`. As you slide the window one step to the right, you add the new element and subtract the element that just fell out of the window's left side. This is an O(1) update, which you do N times.
-        
+	
+	- **How it works:** You maintain a `window_sum`. As you slide the window one step to the right, you add the new element and subtract the element that just fell out of the window's left side. This is an O(1) update, which you do N times.
+		
 
 ---
 
@@ -310,18 +310,18 @@ def isAnagramMap(s: str, t: str) -> bool:
 ### **Slide 13: Heaps (Priority Queues)** (5 mins)
 
 - **Analogy:** An emergency room triage. The most critical patient (highest priority) is always seen first.
-    
+	
 - **The "Tell" (Keywords & Goals):**
-    
-    - **Goal:** Find the "best" `k` items without sorting everything. **Keywords:** **"Top K,"** **"Kth Largest,"** "K Closest," "most frequent K."
-        
+	
+	- **Goal:** Find the "best" `k` items without sorting everything. **Keywords:** **"Top K,"** **"Kth Largest,"** "K Closest," "most frequent K."
+		
 - **Why it's better than sorting:** To find the "Kth Largest" element, you could sort the entire array (O(NlogN)). A heap lets you do it in **O(NlogK)**. If `k` is much smaller than `N`, this is a huge win. You only maintain a small collection of size `k`, which is much cheaper than sorting all `N` elements.
-    
+	
 - **Implementation:** You'll almost never build a heap from scratch. Use Python's built-in `heapq` module (which is a min-heap).
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # LeetCode "Kth Largest Element in an Array"
     import heapq
     def findKthLargest(nums, k):
@@ -333,7 +333,7 @@ def isAnagramMap(s: str, t: str) -> bool:
                 heapq.heappop(min_heap) # Pop the smallest of the top k
         return min_heap[0]
     ```
-    
+	
 
 ---
 
@@ -342,37 +342,37 @@ def isAnagramMap(s: str, t: str) -> bool:
 #### **Daily Habits for Success**
 
 - **Consistency > Intensity:** 30-60 minutes a day builds lasting skill.
-    
+	
 - **Think Out Loud:** The interview is a communication test. Practice narrating your thought process.
-    
+	
 - **Brute Force First:** Don't try to be a hero. A working slow solution is better than a broken fast one.
-    
+	
 
 #### **What's Next on Your Journey?**
 
 - **Binary Search:** On sorted arrays and monotonic functions.
-    
+	
 - **Graphs:** BFS for shortest path, DFS for exploring.
-    
+	
 - **Dynamic Programming:** For optimization problems with overlapping subproblems.
-    
+	
 
 #### **Final Workshop Outline**
 
 1. **Foundations:** Big O, Arrays, Strings
-    
+	
 2. **Lookup Tools:** Hash Maps, Sets & Case Studies
-    
+	
 3. **Linear Patterns:** Stacks, Queues, Two Pointers, Sliding Window
-    
+	
 4. **Advanced Tools:** Heaps & Next Steps
-    
+	
 
 ---
 
 ### **Slide 15: Final Summary Cheat Sheet** (2 mins)
 
-| If the problem involves...           | Your first thought should be...  | Because...                                                               | Big O Goal      |
+| If the problem involves…           | Your first thought should be…  | Because…                                                               | Big O Goal      |
 | ------------------------------------ | -------------------------------- | ------------------------------------------------------------------------ | --------------- |
 | **Counting, Frequencies, Pairs**     | **Hash Map**                     | It provides instant O(1) lookups.                                        | O(N)            |
 | **Duplicates, Uniqueness**           | **Set**                          | It provides instant O(1) existence checks.                               | O(N)            |
@@ -393,19 +393,19 @@ Of course. Here are concise explanations of time and space complexity using code
 Time complexity measures how the runtime of an algorithm scales with the input size (`n`).
 
 - **O(1) - Constant Time:** Runtime is independent of the input size.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # Accessing an element by index is always O(1)
     value = my_list[5]
     ```
-    
+	
 - **O(logn) - Logarithmic Time:** Runtime grows very slowly as the problem size is halved at each step.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # Binary search halves the search space (n) in each step
     l, r = 0, len(arr) - 1
     while l <= r:
@@ -414,29 +414,29 @@ Time complexity measures how the runtime of an algorithm scales with the input s
         elif arr[mid] < target: l = mid + 1
         else: r = mid - 1
     ```
-    
+	
 - **O(n) - Linear Time:** Runtime grows directly in proportion to the input size.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # A single loop through n elements is O(n)
     total = 0
     for num in my_list:
         total += num
     ```
-    
+	
 - **O(n2) - Quadratic Time:** Runtime grows by the square of the input size, typically due to nested loops.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # Nested loops result in n*n operations, hence O(n^2)
     for i in my_list:
         for j in my_list:
             print(i, j)
     ```
-    
+	
 
 ---
 
@@ -445,10 +445,10 @@ Time complexity measures how the runtime of an algorithm scales with the input s
 Space complexity measures the extra memory an algorithm needs as the input size (`n`) grows.
 
 - **O(1) - Constant Space:** The algorithm uses a fixed amount of extra memory.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # Uses only two variables (l, r), regardless of list size
     l, r = 0, len(my_list) - 1
     while l < r:
@@ -456,23 +456,23 @@ Space complexity measures the extra memory an algorithm needs as the input size 
         l += 1
         r -= 1
     ```
-    
+	
 - **O(n) - Linear Space:** Extra memory usage grows in proportion to the input size.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # Creates a new list whose size is proportional to the input list n
     new_list = []
     for item in my_list:
         new_list.append(item * 2)
     ```
-    
+	
 - **O(n2) - Quadratic Space:** Memory usage grows by the square of the input size.
-    
-    Python
-    
-    ```
+
+	Python
+
+	```
     # Creates an n x n matrix, requiring n*n memory
     matrix = []
     n = len(my_list)
