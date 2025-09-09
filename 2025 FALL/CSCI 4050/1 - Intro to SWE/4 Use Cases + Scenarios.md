@@ -1,4 +1,5 @@
-
+```table-of-contents
+```
 # Use Cases + Scenarios
 - use case:
 	- definition of goal=oriented set of interactions between external actors and system under consideration
@@ -68,4 +69,54 @@ Scenarios can have many diff uses during software lifecycle
 - Use Case: Create customer account
 ![[Use Case Doc Ex.png]]
 
-## UML Use Case Diagrams
+Actors:
+- Logged-in users
+
+No Preconditions necessary
+
+Post Conditions:
+- User profile changes are saved to database
+
+Normal Flow: 
+- User
+	1. User selects edit profile
+	2. If user selects to change password
+	3. If user selects to change address
+	4. User selects to subscribe/unsubscribe to receive promo email
+- System
+	1.1) System invokes Edit Personal
+
+Exceptions:
+- not here, referred to in Assumptions
+
+Assumptions:
+- Validity checks and exceptions are handled by the invoked use cases
+
+Special requirements:
+- Users can exit at any time choosing to save/ not save changes
+
+
+Admins:
+- manage movies
+	- add movie
+	- update movie
+		- add movie showtime
+	- delete movie
+	- Schedule movies:
+		- Have rooms 1-3 (at least 3)
+			- Each room has show times
+		- **Cannot schedule movie time at same time for diff movie:**
+			- If book movie in this room while playing diff movie, 
+- manage users
+	- **promote / demote users to and from admin**
+		- NO "admins can delete or edit accounts"
+	- **suspend users**
+		- keep in database but call them "suspended" for weird activities (don't actually implement when to suspend, just the ability to suspend user)
+		- they can't login
+	- *DATABASE:*
+		- "status": verified(active) / unverified / suspended /
+- manage promotions
+
+Admins:
+
+User Story: As an admin, I want to have the ability to manage movies, manage users, and manage promotions
