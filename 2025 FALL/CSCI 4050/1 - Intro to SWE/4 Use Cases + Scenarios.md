@@ -69,15 +69,15 @@ Scenarios can have many diff uses during software lifecycle
 - Use Case: Create customer account
 ![[Use Case Doc Ex.png]]
 
-Actors:
+**Actors:**
 - Logged-in users
 
-No Preconditions necessary
+**No Preconditions necessary**
 
-Post Conditions:
+**Post Conditions:**
 - User profile changes are saved to database
 
-Normal Flow: 
+**Normal Flow:** 
 - User
 	1. User selects edit profile
 	2. If user selects to change password
@@ -95,6 +95,10 @@ Assumptions:
 Special requirements:
 - Users can exit at any time choosing to save/ not save changes
 
+
+
+
+**User Story: As an admin, I want to have the ability to manage movies, manage users, and manage promotions**
 
 Admins:
 - manage movies
@@ -117,6 +121,3 @@ Admins:
 		- "status": verified(active) / unverified / suspended /
 - manage promotions
 
-Admins:
-
-User Story: As an admin, I want to have the ability to manage movies, manage users, and manage promotions
