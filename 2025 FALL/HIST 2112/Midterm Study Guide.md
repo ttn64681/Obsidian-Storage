@@ -1,0 +1,33 @@
+## Cheatsheet: Primary Sources (14 - 18.9)
+
+| Source ID | Document Title (or implied content) | Associated Person(s) / Origin | Key Takeaway |
+|---|---|---|---|
+| **2025 FALL/HIST 2112/1 - Failed Reconstruction/Primary Sources/** | | | |
+| **14** | Testing and Contesting Freedom | N/A (Overview/Analysis Document) | Describes the struggle for African American freedom and rights post-Civil War, including federal intervention (Reconstruction Acts, 15th Amendment) and white resistance (black codes, KKK), ultimately leading to the collapse of federal oversight and the erosion of black freedoms. |
+| **14.6**| (Black Codes Document) | White Southern Leaders | Details the restrictive "Black Codes" enacted by white Southern leaders immediately after the Civil War, designed to control freedpeople's labor and social status, effectively perpetuating elements of slavery. |
+| **14.7**| (Critique of Reconstruction Govts / Sharecropping) | Opponents of Reconstruction, White Landowners | Illustrates critiques against Reconstruction governments ("fraud, corruption, Black Rule") and/or the power dynamics of sharecropping agreements that disadvantaged freedpeople. |
+| **14.8**| (Sharecropping Agreements Document) | White Landowners, Freedpeople | Explains the structure and inherent inequalities of sharecropping agreements, which provided some benefits but gave landowners significant authority over black laborers. |
+| **14.9**| (Challenging Black Political Rule - North) | Northern Magazines/Newspapers | Reflects how even Northern media began to challenge black political participation and "Black Rule" in the South, contributing to the withdrawal of support for Reconstruction. |
+| **14.10**| (Challenging Black Political Rule - South / "Black Rule" Claims) | Southern Newspapers, Opponents of Reconstruction | Illustrates Southern opposition to Black political power, propagating claims of "fraud, corruption, wasteful spending, and 'Black Rule'" to undermine Reconstruction efforts. |
+| **2025 FALL/HIST 2112/2 - Westward Expansion 'n Native America/Primary Sources/** | | | |
+| **15** | (American Indians and Whites in the West - Introduction) | N/A (Overview Document) | Explores the complex and often violent interactions between American Indians and white settlers, covering themes like land disputes, treaties, and cultural clashes during westward expansion. |
+| **15.16**| (Westward Expansion Document) | N/A (Specific Document) | A specific primary source detailing an aspect of American Indian and white relations, or frontier life, during westward expansion. |
+| **15.7** | (Westward Expansion Document) | N/A (Specific Document) | A specific primary source offering a perspective on the challenges or conflicts of westward expansion. |
+| **15.8** | (Westward Expansion Document) | N/A (Specific Document) | A specific primary source documenting a particular event or policy related to Native American experience or frontier life. |
+| **15.9** | (Westward Expansion Document) | N/A (Specific Document) | A specific primary source revealing attitudes or experiences concerning the settlement of the American West. |
+| **15.10**| (Westward Expansion Document) | N/A (Specific Document) | A specific primary source contributing to the understanding of social or economic developments in the American West. |
+| **16** | (Introduction to Gilded Age Economy & Critique of Wealth) | N/A (Overview Document) | Introduces the Gilded Age's economic transformations, the rise of industrial capitalism, and initial debates about wealth, poverty, and government regulation. |
+| **16.6**| William Graham Sumner - Critique of Wealth | William Graham Sumner | Advocated Social Darwinism, arguing against wealthy responsibility to directly aid the poor, as it interferes with natural economic selection and individual merit. |
+| **16.7**| Edward Bellamy - Looking Backward, 1888 | Edward Bellamy | Critiqued industrial capitalism's inequalities and envisioned a future utopian socialist society with nationalized industry and economic equality. |
+| **16.8**| Andrew Carnegie - The Gospel of Wealth, 1889 | Andrew Carnegie | Believed the wealthy had a moral obligation to act as "trustees" of their fortunes, responsibly distributing surplus wealth through strategic philanthropy for societal improvement. |
+| **16.9**| Henry Demarest Lloyd - Critique of Wealth, 1894 | Henry Demarest Lloyd | Denounced ruthless competitive practices and monopolies created by industrialists, arguing excessive wealth came at the expense of workers and the public, threatening social progress. |
+| **2025 FALL/HIST 2112/3 -/ Primary Sources/** | | | |
+| **17** | (Introduction to The Populist Movement) | N/A (Overview Document) | Introduces the Populist Movement, its origins among farmers and laborers, and its radical demands for economic and political reforms against corporate power. |
+| **17.6**| (Populist Document) | N/A (Specific Document) | A specific primary source detailing a demand or aspect of the Populist Party's platform or agenda. |
+| **17.7**| (Populist Document) | N/A (Specific Document) | A specific primary source illustrating the grievances of farmers or the working class during the late 19th century. |
+| **17.8**| (Populist Document) | N/A (Specific Document) | A specific primary source representing a Populist leader's speech or a call for reform. |
+| **17.9**| (Populist Document) | N/A (Specific Document) | A specific primary source reflecting public or political reactions to the Populist movement. |
+| **18** | "Melting Pot" or "Vegetable Soup"? (Introduction to Immigration) | N/A (General overview) | Explores competing ideas about immigrant assimilation in early 20th-century America, contrasting the "melting pot" ideal with the "vegetable soup" reality of cultural preservation and the outright rejection of some groups. |
+| **18.7**| "The Mortar of Assimilation — and the One Element That Won’t Mix,” 1889 | *Puck* Magazine | A cartoon depicting most immigrant groups assimilating but specifically singling out the **Irish** as the unassimilable "one element," reflecting nativist prejudice. |
+| **18.8**| “Be Just — Even to John Chinaman,” 1893 | *Judge* Magazine | A cartoon supporting the Chinese Exclusion Act by advocating for keeping Chinese immigrants out, but also acknowledging other groups and expressing some limited sympathy for Chinese already present. |
+| **18.9**| William Birney - Deporting Mohammedans, 1897 | William Birney | A letter protesting the religious discrimination and deportation of Muslim immigrants, arguing it violates American religious freedom and advocating for tolerance and assimilation. |
