@@ -86,13 +86,13 @@ Scenarios can have many diff uses during software lifecycle
 - System
 	1.1) System invokes Edit Personal
 
-Exceptions:
+**Exceptions:**
 - not here, referred to in Assumptions
 
-Assumptions:
+**Assumptions:**
 - Validity checks and exceptions are handled by the invoked use cases
 
-Special requirements:
+**Special requirements:**
 - Users can exit at any time choosing to save/ not save changes
 
 
