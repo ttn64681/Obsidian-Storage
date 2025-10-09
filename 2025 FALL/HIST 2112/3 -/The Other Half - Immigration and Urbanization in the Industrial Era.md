@@ -4,14 +4,7 @@ tags:
   - HIST2112
   - HIST
   - History
-  - HISTCH18
 ---
-
-Links: [[American History 2112]]
-
-[[Academics/HIST 2112/Lecture Notes/Lecture 9.8|< Prev]]
-
-Chapter 18 primary sources vegetable source
 # The Other Half: Immigration and Urbanization in the Industrial Era
 Very closely related to industrialization (work from europeans seeking refuge, and asians).
 
