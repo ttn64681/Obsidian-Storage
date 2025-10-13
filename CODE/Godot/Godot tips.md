@@ -133,3 +133,26 @@ func _process(delta):
     cursor.frame = int(current_frame - 0.1)
     cursor.global_position = get_global_mouse_position()
 ```
+
+
+
+
+**Custom Signals:**
+
+- **slot_clicked(slot_index: int)**
+	- Emitted in: _inventory_slot_ui.gd_
+		- slot_clicked.emit(slot_index)
+	- Received in: _inspect_state.gd_
+		- slot_ui.slot_clicked.connect(_on_inventory_slot_clicked)
+	- Handler:
+		- _on_inventory_slot_clicked(slot_index: int)
+
+**Prebuilt Signals:**
+
+- Emitted in: _inventory_slot_ui.gd (clicking inventory_slot_ui.tscn)_
+	- gui_input(event: InputEvent)
+- Received in: _inventory_slot_ui.gd_
+	- gui_input.connect(_on_gui_input)
+- Connected in:
+	- _on_gui_input(event: InputEvent)
+
