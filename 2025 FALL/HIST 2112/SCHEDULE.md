@@ -108,9 +108,7 @@ _Friday: **EXAM ONE**_
 
 - **Readings: Chapter 22 – Depression, Dissent, and the New Deal, 1929-1940;**
 
-- **Primary Source Project 22: The Depression in Rural America; Thinking**
-
-- **through Sources 22: FDR’s New Deal and Its Critics**
+- **Primary Source Project 22: The Depression in Rural America; Thinking through Sources 22: FDR’s New Deal and Its Critics**
 
 **Week Ten – October 13-17**
 
