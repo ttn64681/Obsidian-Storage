@@ -1,3 +1,7 @@
+<hr>
+
+# Modules 1-3
+
 **Week One – August 13-15, 2025**
 
 _Wednesday:_ Introduction to the course
@@ -57,6 +61,10 @@ _Wednesday:_ The Other Half: Immigration and Nativism in Industrial America  �
 _Friday: **EXAM ONE**_
 
 **Readings: Chapter 17, continued – _from_ “Farmers Organize” _to the end of the_** **_chapter;_ Thinking through Sources 17: The Meanings of Populism; Chapter 18 -- Cities, Immigrants, and the Nation, 1880-1914; Primary Source Project 18: Melting Pot or Vegetable Soup?; Thinking through Sources 18: Class and Leisure in the City**
+
+<hr>
+
+# Modules 4-6
 
 **Week Six – September 15-19**
 
