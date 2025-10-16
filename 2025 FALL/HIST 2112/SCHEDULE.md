@@ -68,59 +68,63 @@ _Friday: **EXAM ONE**_
 
 **Week Six – September 15-19**
 
-_Monday:_  The Chinese Exclusion Act
+- _Monday:_  The Chinese Exclusion Act
 
-_Wednesday:_ Taking the Edge off Industrialism: The Era of Progressive Reform
+- _Wednesday:_ Taking the Edge off Industrialism: The Era of Progressive Reform
 
-_Friday:_ Discussion
+- _Friday:_ Discussion
 
-**Readings:** **Chapter 19 – Progressivism and the Search for Order, 1900-1917;**
+- **Readings:** **Chapter 19 – Progressivism and the Search for Order, 1900-1917;**
 
-**Primary Source Project 19: Women’s Suffrage and the Passage of the Nineteenth Amendment; Thinking Through Sources 19: Progressivism and Social Control; Chapter 20 - Empire, Wars and Pandemic, 1898-1918…_from the beginning through the end of_ “Comparative Primary Analysis 20.2 and 20.3: Fighting in the Philippines”**
+- **Primary Source Project 19: Women’s Suffrage and the Passage of the Nineteenth Amendment; Thinking Through Sources 19: Progressivism and Social Control; Chapter 20 - Empire, Wars and Pandemic, 1898-1918…_from the beginning through the end of_ “Comparative Primary Analysis 20.2 and 20.3: Fighting in the Philippines”**
 
 **Week Seven – September 22-6**
 
-_Monday:_ The Eagle Abroad: Democracy in the Age of Imperialism
+- _Monday:_ The Eagle Abroad: Democracy in the Age of Imperialism
 
-_Wednesday:_ Piedmont Pandemic: The 1918 Influenza in Athens
+- _Wednesday:_ Piedmont Pandemic: The 1918 Influenza in Athens
 
-_Friday:_ Discussion
+- _Friday:_ Discussion
 
-**Readings: Empire, Wars, and Pandemic, 1898-1918 ..._from_ “Wilson and American Foreign Policy, 1912-19” _to the end of the chapter;_ Primary Source Project 20: The Challenges of the 1918-1919 Influenza Epidemic; Thinking through** **Sources 20: Committee on Public Information Propaganda and Wartime Propaganda**
+- **Readings: Empire, Wars, and Pandemic, 1898-1918 ..._from_ “Wilson and American Foreign Policy, 1912-19” _to the end of the chapter;_ Primary Source Project 20: The Challenges of the 1918-1919 Influenza Epidemic; Thinking through** **Sources 20: Committee on Public Information Propaganda and Wartime Propaganda**
 
 **Week Eight – September 29-October 3**
 
-_Monday:_ The Twenties: Birth of the “Consumer Society”
+- _Monday:_ The Twenties: Birth of the “Consumer Society”
 
-_Wednesday:_ The Harlem Renaissance
+- _Wednesday:_ The Harlem Renaissance
 
-_Friday:_ Flappers
+- _Friday:_ Flappers
 
-**Readings: Chapter 20 -- Chapter 21 – The Twenties, 1919-1929; Primary Source Project 21: The** **New Negro and the Harlem Renaissance; Thinking through Sources 21:** **The Scopes “Monkey Trial”**
+- **Readings: Chapter 20 -- Chapter 21 – The Twenties, 1919-1929; Primary Source Project 21: The** **New Negro and the Harlem Renaissance; Thinking through Sources 21:** **The Scopes “Monkey Trial”**
 
 **Week Nine – October 6-10**
 
-_Monday:_ A New Deal for America
+- _Monday:_ A New Deal for America
 
-_Wednesday:_ New Deal continued
+- _Wednesday:_ New Deal continued
 
-_Friday:_ The Civilian Conservation Corps
+- _Friday:_ The Civilian Conservation Corps
 
-**Readings: Chapter 22 – Depression, Dissent, and the New Deal, 1929-1940;**
+- **Readings: Chapter 22 – Depression, Dissent, and the New Deal, 1929-1940;**
 
-**Primary Source Project 22: The Depression in Rural America; Thinking**
+- **Primary Source Project 22: The Depression in Rural America; Thinking**
 
-**through Sources 22: FDR’s New Deal and Its Critics**
+- **through Sources 22: FDR’s New Deal and Its Critics**
 
 **Week Ten – October 13-17**
 
-_Monday:_ Extremism and the New Deal
+- _Monday:_ Extremism and the New Deal
 
-_Wednesday:_ World War II: Reinforcing the New Deal
+- _Wednesday:_ World War II: Reinforcing the New Deal
 
-_Friday:_ **EXAM** 2
+- _Friday:_ **EXAM TWO** 
 
-**Readings: Chapter 23 – World War II,1933-1945; Primary Source Project 23: The Decision to Drop** **the Atomic Bomb; Thinking through Sources 23: Anti-Japanese Prejudice in WWII**
+- **Readings: Chapter 23 – World War II,1933-1945; Primary Source Project 23: The Decision to Drop** **the Atomic Bomb; Thinking through Sources 23: Anti-Japanese Prejudice in WWII**
+
+<hr>
+
+# Modules 7-9
 
 **Week Eleven – October 20-24**
 
