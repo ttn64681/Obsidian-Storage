@@ -30,11 +30,11 @@ Answer: 1b, 2a. 3c
 ## 3. Match:
 1. RAM - big
 2. Cache -
-a. Closer to the processor core.
-b. Faster!
+**a. Closer to the processor core.**
+**b. Faster!**
 c. Cheaper
 d. Way larger
-e. Reduces the memory access latency b/c of its size
+**e. Reduces the memory access latency b/c of its size**
 
 Answer: 2a, 2b, 1c, 1d, 2e
 ## 4. Match:

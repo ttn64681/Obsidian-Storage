@@ -209,10 +209,8 @@ Mistakes:
 		- **Composition:**
 			- The "whole" diamond is on the one side, not the many
 			- is on the super part, not the sub part
-		- Aggregation:
+		- **Aggregation:**
 			- 
-
-
 
 
 
