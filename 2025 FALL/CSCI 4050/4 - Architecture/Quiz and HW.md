@@ -123,3 +123,29 @@ Both the MVC and the multi-layer styles apply seperation of concerns and thus ma
 |     |
 | --- |
 |     |
+
+
+
+
+
+
+
+
+<hr>
+
+# Activity 11
+**Question 1 options:**
+*   **The system shall be configured with one of multiple families of products.**
+    *   **3. Abstract Factory**
+*   **Your program must support switching among several different email libraries, but each one has a slightly different interface.**
+    *   **5. Adapter**
+*   **The system shall support "lazy creation" - a component is created only if, and when, the client demonstrates an interest in it.**
+    *   **6. Proxy**
+*   **The system shall create objects without exposing the creation logic to the client**
+    *   **4. Factory Method**
+*   **A single instance shall be created and shall be initialized only if, and when, it is accessed.**
+    *   **1. Singleton**
+*   **Components shall be extensible at run-time. The client should be able to add behaviors at run-time.**
+    *   **7. Decorator**
+*   **The system shall provide a simple interface to a complex subsystem.**
+    *   **2. Facade**
