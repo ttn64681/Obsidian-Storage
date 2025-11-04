@@ -36,3 +36,90 @@ Deliverable 7:
 			- then choose available (non-taken) dates + times
 			- then choose movie
 		- 3 rooms for testing
+
+
+
+
+Who What When
+
+one person implementing the facade
+
+"We will be using a singleton to connect to the database"
+
+"What design patterns we will implement?"
+
+"Proposed design patterns?"
+
+Deliverable 7:
+1. what stack and arch design
+	- MVC model, etc.
+2.  System decomposition: brekadown of components and interactions
+	1. Frontend: 
+		1. Axios to make API calls to EXpress server
+	2. Backend: API Handling and Logic
+	3. Middleware: Node.js
+3. Design Patterns:
+	1. Facade:
+		1. Problem:
+		2. Solution: we made simple cohesive ethods such as fetchScheduledShows to encapsulate complex operations allowed more focus on user interactions
+	2. Singleton:
+		1. Problem:
+		2. Solution: singular database connection which is our mongoose connection that all of our routes depend on.
+4. SOLID Principles Reflection (need to be specific, like discuss the proxy pattern you are implementing, this is the structure of the proxy (include class diagrams)):
+	- include class diagrams or else you will lose points
+	1. S.
+	2. O.
+	3. L.
+	4. I.
+	5. D.
+5. Design Goals
+	- Maintainability:
+		- Separation of components w/in our code and the use of MVC architecture
+	- Usability:
+		- By designing out website similar to that of common movie ticketing booking websites such as AMC, users should be able to book a ticket on our website w/in 15 mins of accessing the website
+	- Security:
+		- Password encryption
+
+
+Package Diagram + Class Diagrams
+- Try to keep slides light
+
+- hybrid design, Repository Design
+- Admin portal and user portal are connected to repository
+
+- Example of service file
+- specific router files per module
+- service files to reduce coupling
+
+
+Pattern 1: Facade allows for SRP, etc.etc.
+
+
+Instead of code snippets we should have class diagrams
+
+
+Pattern 3: Proxy, we implement a protect proxy
+- only allow admin to access
+- Achieves SRP
+	- skeleton handles indicating loading movies
+
+View Layer, Controller Layer, Schedule Layer, Service Layer, Repository Layer
+- React frontend
+- restful api springboot backedn which are controllers
+
+- handles http requests and responses 
+- the facade
+
+
+- Decorator:
+	- movie cards come w/ different buttons depending on context
+	- explosion of movie card classes
+	- wrap movie card w/ button decorations
+
+- Class Diagram
+
+
+- Facade
+	- dependency inversion
+
+- Deliverable 8 due 25th
