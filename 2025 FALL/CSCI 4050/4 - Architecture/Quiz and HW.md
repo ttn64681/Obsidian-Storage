@@ -149,3 +149,28 @@ Both the MVC and the multi-layer styles apply seperation of concerns and thus ma
     *   **7. Decorator**
 *   **The system shall provide a simple interface to a complex subsystem.**
     *   **2. Facade**
+
+
+
+
+
+
+
+Operation Mapping:
+- PaymentProcessor.process() → LegacyPaymentGateway.charge()
+
+Translation:
+- process() receives PaymentRequest object
+- Extracts parameters: amount (converted to cents), cardNumber, cvv, expiryMMYY
+- Calls charge() with these parameters
+- Converts return value: 0 → PaymentResult, nonzero → PaymentException
+
+
+
+I used Google Search / Google Gemini to clarify technical details and verify my existing answers. For Part A, I asked it to verify if my reasoning about the Adapter pattern was correct, and it made minor corrections regarding how the adapter converts between interfaces. I further tested my knowledge by giving it analogies to see if my understanding was correct.
+
+For Part B, I asked about UML notation, specifically how to represent constructor parameters in class diagrams. The AI suggested a <<constructor>> stereotype, but I verified this against UML standards and found that constructors are simply shown in the operations section with the class name, which I then implemented correctly.
+
+For Part C, I asked what data type would be best for representing currency amounts. The AI suggested BigDecimal instead of float, explaining it's more precise for financial calculations. I verified this recommendation and implemented the suggestion.
+
+After reviewing the AI's output, I verified all suggestions against assignment requirements and authoritative sources. I learned that AI is useful for clarifying concepts, but it's important to verify its suggestions, as it can sometimes provide non-standard information that needs to be validated.
