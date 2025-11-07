@@ -13,7 +13,7 @@ Deliverable 5 (Object relational Mapping) and 6 (Sprint 2 Stories):
 - Database design doc
 - Demonstrate database and deliverable 6 (registration, login, logout)
 
-Deliverable 7:
+Deliverable 8:
 **admin functionality**
 - implement 
 	- home page -> manage movies, promos, users, (showtimes also on homepage perhaps)
@@ -38,7 +38,7 @@ Deliverable 7:
 		- 3 rooms for testing
 
 
-
+**Deliverable 7**:
 
 Who What When
 
@@ -123,3 +123,11 @@ View Layer, Controller Layer, Schedule Layer, Service Layer, Repository Layer
 	- dependency inversion
 
 - Deliverable 8 due 25th
+
+
+
+
+
+
+
+
