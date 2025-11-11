@@ -1,3 +1,5 @@
+quiz will be extra credit
+
 Nonfunctional:
 - Security:
 	- encrypted credit card info and password
@@ -131,3 +133,55 @@ View Layer, Controller Layer, Schedule Layer, Service Layer, Repository Layer
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+you are decorating what?
+
+- design/class diagram
+- multilayer mvc
+
+- im doing facade
+- draw diagram
+
+- factory for tickets
+- draw diagraam
+
+- proxy or adapter
+- draw diagram
+
+- mvc or multilayer
+
+- package diagram
+
+view layer
+domain layer
+data access layer
+
+- Facade Design Pattern
+	- problem
+	- solution
+	- coding
+
+- Guideline is deliverable itself
+
+- The programming languages and any frameworks used
+	- mongodb react
+- architectural design
+	- we use mvc or mukti
+		- system decomposition ℗ckage diagram or component diagram or )
+		- depict architectural design (a)
+
+- avoid including code
+- "this controller interacts with this"
+- just to show you have interfaces and facades
+- show/explain interaction of : 
+	- model to view to controller
