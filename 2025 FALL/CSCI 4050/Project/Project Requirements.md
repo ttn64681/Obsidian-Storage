@@ -46,6 +46,8 @@ Who What When
 
 one person implementing the facade
 
+
+
 "We will be using a singleton to connect to the database"
 
 "What design patterns we will implement?"
@@ -124,24 +126,6 @@ View Layer, Controller Layer, Schedule Layer, Service Layer, Repository Layer
 - Facade
 	- dependency inversion
 
-- Deliverable 8 due 25th
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 you are decorating what?
@@ -185,3 +169,8 @@ data access layer
 - just to show you have interfaces and facades
 - show/explain interaction of : 
 	- model to view to controller
+
+
+
+
+- Deliverable 8 due 25th
