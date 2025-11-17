@@ -1,3 +1,10 @@
+"I will implement interface that does this, i will create something that implements this"
+- access the data access layer (in the activity is the example) adds portability. can change db system and achieve the same goal
+"Which solid principles have been achieved" by doing this design pattern
+
+"from director to deans committee to engineering college committee"
+
+
 ## Term Project Cinema E-Booking System
 
 ### Problem Statement:

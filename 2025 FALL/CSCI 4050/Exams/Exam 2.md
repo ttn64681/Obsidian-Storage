@@ -103,3 +103,173 @@ Be able to apply an appropriate design pattern to solve a specific software prob
 - Different types of tests
 - Be able to distinguish between black-box testing and white-box testing and their testing techniques.
 - Non-functional testing (Stress testing), definition, and how to apply.
+
+
+
+
+
+<hr>
+
+# Exam Tips/Questions
+
+may give use case description and ask which diagram is correct? (given communication diagram options as answers)
+
+may ask more about solid principles applied to a diagram or not?
+- is there coupling between classes
+
+won't be given problem to do from scratch
+
+**Ex Problem:**
+- be given use case description
+- be given design class diagram with navigation arrows
+- then draw sequence diagram
+
+prepare all steps, then draw one thing only
+
+
+**communication diagram to sequence diagram**
+- comm diagram doesn't have timeline, but has links between objects if they communicate
+- need the link if 2 objs sending messages to each other
+
+2 button display
+
+
+<hr>
+
+max time
+exam open for 10 minutes at beginning of class time only
+More than 27 questions:
+- mcq 
+- ½ mutliselect
+- describe design pattern
+- describe the diagram
+- define stress testing
+- text input (written response)
+- draw the diagram for the given pattern (omitted)
+
+
+
+
+- On the WWW a single clinet can access data model (diagram) as the following. what archtiectural dsign can we use to imporve? explain
+
+an arch style in which multiple independent comoponents interact
+
+
+Example question: an engineering analysis tool is composed on mult ind components include
+- data ingestion module
+- a filtering module that performs noise reduction
+- a statistical analyzer that computes trends and
+- a reporting engine that generates visual summaries
+- - shared data structure., components operates independently and communicates only thru shared data structure.
+- which acts as the central coordination point for the system?
+- no direct calls are made b/w components.
+  Which architectural style best fits this system and why?
+
+- repository
+	- not mvc
+	- not 
+
+
+Component diagram
+- wont be asked to draw, but you should understand diagrams and how system is deployed
+- what is assembly notation?
+- provides vs requires
+C1 provides interface, C2 requires/invokes method from interface
+![[Drawing 2025-11-17 10.43.59.excalidraw]]
+
+what about Deployment diagram?
+- each node is hardware device
+- node has link
+what they represent, the structure, and the purpose
+
+
+Understand mvc or multilayer or repository given diagram
+
+
+
+- text object should be created by text decorator
+
+
+
+
+design principles: separation of concerns indirection, coupling cohesion
+- these are principles, not design goals
+
+classes and interaction: cohesion, coupling, and solid
+- design goals:
+	- security, maintainability, etc.
+
+
+- coupling, refers to components, not classes
+- cohesion: relation between 2 components
+- whenever increase coupling, you decrease cohesion
+- low coupling is ease of maintenance
+	- loosely coupled components easy to maintain
+	- reusable, easy to extend
+	- major for cohesion: reusablility
+	- major for loose coupled component is : is easy maintenance
+
+
+
+
+
+
+
+from Exam 1, still know the following:
+- class and object diagrams
+- distinguish between different process models
+
+- know prupose of each diagram:
+	- which depicts the object's at runtime and how they are linked at runtime?
+	- fix the objects and how they are linked at runtime?
+		- object diagram
+			- shows how theyre linked
+	- which diagrams depict interaction between objects?
+		- communication diagram or sequence diagram.
+		- not system sequence
+
+system sequence is just a description of use case!
+- what about detailed focus on messages? or time? -> sequence diagram
+- which diagrams communicates with objects directly? -> object diagram
+- to figure out which ones invoke which -> sequence
+- which depicts how components are allocated or distributed? -> deployment
+- shows different subsystems and explicity representation of interfaces between them? -> subsystem or component diagram? component, shows the wire that explicitly says WHICH interface? explicit representation?
+	- not package diagram
+
+
+- a module name UserProfileManagwer performs the following tasks
+- - updating user detials
+- sending promo emails generating user reports?
+	- wat is the problem with this?
+		- high coupling
+		- low cohesion
+
+- low coupling example:
+	- multiple components that don't need to know the inner details of another component
+
+- which of following object diagram sare consistent with class diagram
+
+- rest are about class diagrams
+
+- is sequence diagram consistent with class diagram
+
+- question about solid principles
+
+**multi select or multiple choice:**
+- resolve quiz 1
+- word document or pdf that compares RUP and Prototyping and Agile and SCRUM and Waterfall
+
+
+- skip to class and diagram
+
+
+
+**27 mcq or matching:**
+1 written response:
+
+
+
+**which diagram shows  interaction of system between system and environment or external entities?**
+- Component?
+	- no, this shows internal
+- **Use Case diagram**

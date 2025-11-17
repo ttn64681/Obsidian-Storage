@@ -182,6 +182,22 @@ Given use case description, select correct sequence diagram:
 ![[Drawing 2025-11-13 09.58.40.excalidraw]]
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Test Review..
+
 <hr>
 - solid principles
 - arch patterns
@@ -241,8 +257,6 @@ Q2) Which is glassbox technique?
 					- System directs to enter payment
 
 3. test system by pushing beyond max data storage capacity
-
-
 
 
 
