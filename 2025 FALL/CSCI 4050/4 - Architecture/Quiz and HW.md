@@ -7,8 +7,8 @@
 	- ![[Drawing 2025-10-09 10.29.35.excalidraw]]
 
 
-
-Activity 8:
+<hr>
+# Activity 8 quiz copy and paste:
 
 ## Thai Nguyen
 
@@ -88,15 +88,11 @@ A closed multi-layer architecture hurts both response time and memory foot print
 ||![Selected](https://uga.view.usg.edu/d2l/img/0/QuestionCollection.Main.radioChecked.svg?v=20.25.9.24045 "Selected")|a) True|
 ||![Unselected](https://uga.view.usg.edu/d2l/img/0/QuestionCollection.Main.radioUnchecked.svg?v=20.25.9.24045 "Unselected")|b) False|
 
-|   |   |
-|---|---|
-||   |
-
-|   |   |
-|---|---|
-||   |
-|||
-|## Feedback<br><br>A closed multi-layer architecture requires method invocations across each layer boundary and often also copying data betweeneach layer. This hurts both response time and memory f|   |
+|                                                                                                                                                                                                       |     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+|                                                                                                                                                                                                       |     |
+|                                                                                                                                                                                                       |     |
+| ## Feedback<br><br>A closed multi-layer architecture requires method invocations across each layer boundary and often also copying data betweeneach layer. This hurts both response time and memory f |     |
 
 |   |   |   |
 |---|---|---|
@@ -119,10 +115,6 @@ Both the MVC and the multi-layer styles apply seperation of concerns and thus ma
 |---|---|---|
 ||![Selected](https://uga.view.usg.edu/d2l/img/0/QuestionCollection.Main.radioChecked.svg?v=20.25.9.24045 "Selected")|a) True|
 ||![Unselected](https://uga.view.usg.edu/d2l/img/0/QuestionCollection.Main.radioUnchecked.svg?v=20.25.9.24045 "Unselected")|b) False|
-
-|     |
-| --- |
-|     |
 
 
 
@@ -166,11 +158,3 @@ Translation:
 - Converts return value: 0 → PaymentResult, nonzero → PaymentException
 
 
-
-I used Google Search / Google Gemini to clarify technical details and verify my existing answers. For Part A, I asked it to verify if my reasoning about the Adapter pattern was correct, and it made minor corrections regarding how the adapter converts between interfaces. I further tested my knowledge by giving it analogies to see if my understanding was correct.
-
-For Part B, I asked about UML notation, specifically how to represent constructor parameters in class diagrams. The AI suggested a <<constructor>> stereotype, but I verified this against UML standards and found that constructors are simply shown in the operations section with the class name, which I then implemented correctly.
-
-For Part C, I asked what data type would be best for representing currency amounts. The AI suggested BigDecimal instead of float, explaining it's more precise for financial calculations. I verified this recommendation and implemented the suggestion.
-
-After reviewing the AI's output, I verified all suggestions against assignment requirements and authoritative sources. I learned that AI is useful for clarifying concepts, but it's important to verify its suggestions, as it can sometimes provide non-standard information that needs to be validated.

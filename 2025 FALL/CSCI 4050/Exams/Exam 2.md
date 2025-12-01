@@ -5,10 +5,6 @@ Attend review lecture
 
 **Exam 2 Study Guide**
 
-  
-
-**Exam 2 Study Guide**
-
 **The exam will be on eLC Quizzes tool. Bring your laptop.**
 
 **Read the exam policy on the syllabus.**
@@ -110,6 +106,7 @@ Be able to apply an appropriate design pattern to solve a specific software prob
 
 <hr>
 
+
 # Exam Tips/Questions
 
 may give use case description and ask which diagram is correct? (given communication diagram options as answers)
@@ -149,8 +146,8 @@ More than 27 questions:
 
 
 
-
-- On the WWW a single clinet can access data model (diagram) as the following. what archtiectural dsign can we use to imporve? explain
+Ex:
+- On the WWW a single clinet can access data model (diagram) as the following. what architectural dsign can we use to imporve? explain
 
 an arch style in which multiple independent comoponents interact
 
@@ -185,11 +182,7 @@ what they represent, the structure, and the purpose
 
 Understand mvc or multilayer or repository given diagram
 
-
-
 - text object should be created by text decorator
-
-
 
 
 design principles: separation of concerns indirection, coupling cohesion
@@ -272,4 +265,65 @@ system sequence is just a description of use case!
 **which diagram shows  interaction of system between system and environment or external entities?**
 - Component?
 	- no, this shows internal
-- **Use Case diagram**
+- **Use Case diagram** is the answer
+
+
+## SOME MORE STUFF ON THE TEST :
+
+Top-Down:
+- user interface first, then middle tier, then connection to database
+- have to implement stops
+- Focus on user interface first
+
+Bottom-Up:
+- start w/ components that show output
+- testing functionality with checkout
+- then see if email sent with correct price and calculations and etc
+- need to implement drivers, in order to substitute params
+- A better approach:
+
+Sandwich Approach:
+- connection of database is ready
+- ui is ready
+- check middle-tier logic
+- every time you want to test some functionality, you test it with user interface and other layers
+
+- however, if we need to ____, we need to use the following testing:
+Stress testing / Performance Testing:
+- testing system BEYOND its limits
+- how system behaves if we exceed the limits
+
+White vs black techniques
+definition of testing and how we use it
+
+asking to list the methods and specific class 
+
+ex: :2BWatchDisplay (Communication diagraam)
+- look for incoming input messages
+	- if sequence look at all input arrows
+	- if communication, look at all input messages going into it
+- input messages mean we invoke it coming from x class
+
+ex: : Patron (squence diagram)
+- what are the input messages?
+	- **getPatronInfo() GOING INTO Patron from checkoutHandler**
+
+COnverting
+![[Drawing 2025-11-13 09.48.56.excalidraw]]
+![[Drawing 2025-11-13 09.50.31.excalidraw]]
+
+What is the signature method of the following:
+- ex: 
+	- **tn := createNode(x)**
+	- Answer: createNode(int x): TreeNode
+
+Given use case description, select correct sequence diagram:
+- ex:
+	- Use Case Cancel Order Description:
+		- given inv was reserved whne order was made, cancel an orde rinvolves that all order items in order must be canceled and their inv quantities must be updated.
+	- First Cut Deisng Diagram
+
+- cancel all items in order
+- then refund
+- update inv quantities
+![[Drawing 2025-11-13 09.58.40.excalidraw]]

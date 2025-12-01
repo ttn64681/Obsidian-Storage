@@ -121,7 +121,7 @@ Final Demo:
 - Which techniques are white box, which techniques are black box:
 
 
-## TESTING :
+## SOME STUFF ON THE TEST :
 
 Top-Down:
 - user interface first, then middle tier, then connection to database
@@ -151,7 +151,7 @@ definition of testing and how we use it
 
 asking to list the methods and specific class 
 
-ex: :2BWatchDisplay ©mm diagraam)
+ex: :2BWatchDisplay (Communication diagraam)
 - look for incoming input messages
 	- if sequence look at all input arrows
 	- if communication, look at all input messages going into it
