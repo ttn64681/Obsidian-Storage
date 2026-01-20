@@ -1,3 +1,6 @@
+```table-of-contents
+```
+
 <hr>
 
 # Modules 1-3
