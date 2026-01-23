@@ -1,0 +1,1 @@
+- [ ] Due Fri Jan 23 - Open Book
