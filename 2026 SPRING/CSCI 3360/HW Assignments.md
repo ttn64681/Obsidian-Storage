@@ -1,1 +1,2 @@
 - [ ] Due Fri Jan 23 - Open Book
+- [ ] Week 4 - read Pandas documentation from beginning
