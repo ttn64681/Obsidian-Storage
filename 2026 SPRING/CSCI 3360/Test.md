@@ -26,3 +26,6 @@
 	- Scope: until 26th (Thursday of February)
 
 - Maybe 30 minutes
+
+
+## Study Guide 1:
